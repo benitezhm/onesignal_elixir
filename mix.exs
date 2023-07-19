@@ -44,7 +44,7 @@ defmodule OnesignalElixir.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.18.0", only: :dev, runtime: false},
-      {:httpoison, "~> 1.4"},
+      {:httpoison, "~> 2.1"},
       {:poison, "~> 5.0"}
     ]
   end
